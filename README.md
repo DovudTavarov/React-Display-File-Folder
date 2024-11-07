@@ -1,8 +1,12 @@
-# React + Vite
+# Display File Folder 📂
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based component that displays a file and folder structure with expandable folders and file icons. It’s a useful UI component for projects needing a visual representation of a file directory.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Expandable Folders**: Click on a folder to expand or collapse its contents.
+- **File and Folder Icons**: Differentiates between files and folders with unique icons.
+- **Default Folder Open**: Starts with the "public" folder open.
+- **Nested Structure**: Supports multi-level nested folders and files.
+
+## Demo
